@@ -1,8 +1,5 @@
 entrevista passeio carioca:
 
-
-1.Aplicativo
-
 API com google maps.............
 
 fotos do local............
