@@ -5,7 +5,7 @@ que sejam cadastrados no feed
 
 >>COMO ? : Usando html , css e javascript com auxilio do framework react
 
->>>QUEM ? : 
+>>>QUEM ? : o gr
 
 >>>>PORQUÊ ? : Para auxiliar o app da empresa
 
