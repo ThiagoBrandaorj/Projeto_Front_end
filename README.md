@@ -1,5 +1,5 @@
 # Projeto de criação de projeto da empresa PasseioRio
->1 - Ciclo 5W:
+>1 - Ciclo 5W2H:
 
   -> O QUÊ ? : Desenvolver para o aplicativo da empresa PasseioRio, um feed de ponstagens sobre a história , curiosidades e mais de novos empreendimentos imobiliarios , bares , e etc da cidade do Rio de janeiro
 que sejam cadastrados no feed.
