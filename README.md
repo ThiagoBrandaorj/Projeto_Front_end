@@ -22,7 +22,8 @@ que sejam cadastrados no feed
    A API do google maps funcionaria da seguinte maneira : um mapa em outa aba do aplicativo (não a do sistema do feed) cadastraria o local extamente no endereço do mapa , sendo marcado visualmente, caso o usuario clique no 
    local marcado seria levado a postagem do local no feed , ou a postagem do feed apareceria de maneira simplificada (com informações reduzidas) no mapa.
 
-#Requisitos do sistema:#
+>>>3 - Requisitos do sistema:
+
 ##Funcionais:##
 -Fazer um feed de noticias interativo.
 -Deixar operacional um mapa interativo com os imoveis (interações: mostrar curiosidades, historia e no caso de bares e restaurantes cardapios.)
