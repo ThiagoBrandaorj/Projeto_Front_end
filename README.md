@@ -1,5 +1,5 @@
 # Projeto de criação de projeto da empresa PasseioRio
-1 - Ciclo 5W:
+>1 - Ciclo 5W:
 
   -> O QUÊ ? : Desenvolver para o aplicativo da empresa PasseioRio, um feed de ponstagens sobre a história , curiosidades e mais de novos empreendimentos imobiliarios , bares , e etc da cidade do Rio de janeiro
 que sejam cadastrados no feed
@@ -14,7 +14,7 @@ que sejam cadastrados no feed
 
   -> QUANDO ? : A qualquer hora do dia e qualquer dia da semana
 
-2 - Sistema de funcionamento do feed:
+>>2 - Sistema de funcionamento do feed:
 
 -> O sistema de feed , funcionaria de maneira similar em design ao instagram , uma única página que se movimento somente no sentido vertical , as postagens mais recentes ficariam ao topo do sistema , sendo as primeiras a serem visuslizadas, enquanto as últimas ou mais antigas ficariam cada vez mais abaixo na aplicação.
    As postagens falariam sobre o local do empreendiemnto , sua categoria (bar , prédio , casa , banco , etc ...) , sua historia , curiosidades, fotos do local.
