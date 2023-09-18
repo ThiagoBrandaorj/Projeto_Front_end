@@ -1,33 +1,34 @@
-# Projeto de criação de projeto da empresa PasseioRio
->1 - Ciclo 5W2H:
+Projeto de inmplemetanção de sistema da empresa PasseioRio
 
-  -> O QUÊ ? : Desenvolver para o aplicativo da empresa PasseioRio, um feed de ponstagens sobre a história , curiosidades e mais de novos empreendimentos imobiliarios , bares , e etc da cidade do Rio de janeiro
-que sejam cadastrados no feed.
+1 - Ciclo 5W2H:
 
-  -> COMO ? : Usando html , css e javascript com auxilio do framework react , usando API com google maps.
+O QUÊ ? : Desenvolver para o aplicativo da empresa PasseioRio um feed de ponstagens que contenha a história, curiosidades e outros tipos de informações a respeito de novos empreendimentos imobiliários, bares e estabelecimentos da cidade do Rio de janeiro.
 
-  -> QUEM ? : O sistema teria como público-alvo turistas , curiosos , ou qualquer um que tenha acesso ao aplicativo da empresa PasseioRio.
+COMO ? : O sistema será desenvolvido usando html , css e javascript com auxílio do framework react, usando API com google maps.
 
-  -> PORQUÊ ? : Para que os turistas, curiosos e usúarios do aplicativo  que estejam explorando a cidade do Rio possam aprender histórias e curiosidades dos pontos cadastrados no sistema.
+QUEM ? : O sistema terá como público-alvo turistas, curiosos e qualquer um que tenha acesso ao aplicativo da empresa PasseioRio.
 
-  -> ONDE ? : O sistema ficaria dentro do aplicativo da empresa PasseioRio , em uma aba especifica do aplicativo, contudo tambem sendo possivel seu acesso atraves do mapa com uma API. 
+PORQUÊ ? : O maior propósito do sistema é facilitar e gameficar a entrega de informação para os usuários do app.
 
-  -> QUANDO ? : O sistema pode ser usado a qualquer hora do dia e qualquer dia da semana.
+ONDE ? : O sistema ficaria dentro do aplicativo da empresa PasseioRio, em uma aba especifica da aplicação. 
 
->>2 - Sistema de funcionamento do feed:
+QUANDO ? : O sistema pode ser usado a qualquer hora e dia da semana, sem ter  que ou depender de um horário específico para seu funcionamento.
 
--> O sistema de feed , funcionaria de maneira similar ao design do instagram , uma única página que se movimenta somente no sentido vertical , as postagens mais recentes ficariam ao topo do sistema , sendo visuslizadas 
-   primeiro, enquanto as últimas ou mais antigas ficariam cada vez mais abaixo na aplicação.
-   As postagens falariam sobre o local do empreendiemnto , sua categoria (bar , prédio , casa , banco , etc ...) , sua historia , curiosidades, fotos do local.
-   A API do google maps funcionaria da seguinte maneira : um mapa em outa aba do aplicativo (não a do sistema do feed) cadastraria o local extamente no endereço do mapa , sendo marcado visualmente, caso o usuario clique no 
-   local marcado seria levado a postagem do local no feed , ou a postagem do feed apareceria de maneira simplificada (com informações reduzidas) no mapa.
+2 - Requisitios do Sistema:
 
->>>3 - Requisitos do sistema:
+-O sistema devcerá ter um feed interativo.
+-O design do sistema deverá ser parecido com o do "Instagram".
+-A página do sistema deverá se movimentar apenas na vertical.
+-As postagens mais recentes do sistema deverão ficar no topo da página, sendo visualizadas primeiro as adições mais recentes.
+-Os post realizados no sistema prototipado deverão conter informações sobre o local como: história, sua categoria (bar,prédio,casa,banco,etc),curiosidades e fotos do espaço.
+-O sistema deverá ser integrado com a API do Google maps.
 
-##Funcionais:##
+3 - Funcionalidades do sistema:
+
+ Funcionais:
 -Um feed de noticias funcional e interativo para o usuario.
 
-##Não funcionais:##
+ Não funcionais:
 -O sistema deve ser operacional tanto em IOS quanto para Android.
--O sistema deve ser acessivel pelo app do Passeio Carioca.
--A base do sis tem que ser o framework REACT.
+-O sistema deve ser acessível pelo app do Passeio Carioca.
+-A base do sistema tem que ser o framework REACT.
