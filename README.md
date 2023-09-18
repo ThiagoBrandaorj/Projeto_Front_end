@@ -25,7 +25,7 @@ que sejam cadastrados no feed
 #Requisitos do sistema:#
 ##Funcionais:##
 -Fazer um feed de noticias interativo.
--Deixar operacional um mapa interativo com os imoveis (interações: mostrar curuiosidades, historia e no caso de bares e restaurantes cardapios.)
+-Deixar operacional um mapa interativo com os imoveis (interações: mostrar curiosidades, historia e no caso de bares e restaurantes cardapios.)
 
 ##Não funcionais:##
 -O sistema deve ser operacional tanto em IOS quanto para Android.
