@@ -2,9 +2,9 @@
 >1 - Ciclo 5W:
 
   -> O QUÊ ? : Desenvolver para o aplicativo da empresa PasseioRio, um feed de ponstagens sobre a história , curiosidades e mais de novos empreendimentos imobiliarios , bares , e etc da cidade do Rio de janeiro
-que sejam cadastrados no feed
+que sejam cadastrados no feed.
 
-  -> COMO ? : Usando html , css e javascript com auxilio do framework react , usando API com google maps
+  -> COMO ? : Usando html , css e javascript com auxilio do framework react , usando API com google maps.
 
   -> QUEM ? : O sistema teria como público-alvo turistas , curiosos , ou qualquer um que tenha acesso ao aplicativo da empresa PasseioRio.
 
