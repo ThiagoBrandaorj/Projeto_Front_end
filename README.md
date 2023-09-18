@@ -16,6 +16,6 @@ que sejam cadastrados no feed
 
 >>2 - Sistema de funcionamento do feed:
 
--> O sistema de feed , funcionaria de maneira similar em design ao instagram , uma única página que se movimento somente no sentido vertical , as postagens mais recentes ficariam ao topo do sistema , sendo as primeiras a serem visuslizadas, enquanto as últimas ou mais antigas ficariam cada vez mais abaixo na aplicação.
+-> O sistema de feed , funcionaria de maneira similar em design ao instagram , uma única página que se movimenta somente no sentido vertical , as postagens mais recentes ficariam ao topo do sistema , sendo as primeiras a serem visuslizadas, enquanto as últimas ou mais antigas ficariam cada vez mais abaixo na aplicação.
    As postagens falariam sobre o local do empreendiemnto , sua categoria (bar , prédio , casa , banco , etc ...) , sua historia , curiosidades, fotos do local.
    A API do google maps funcionaria da seguinte maneira : um mapa em outa aba do aplicativo (não a do sistema do feed) cadastraria o local extamente no endereço do mapa , sendo marcado visualmente, caso o usuario clique no local marcado seria levado a postagem do local no feed , ou a postagem do feed apareceria de maneira simplificada (com informações reduzidas) no mapa.
