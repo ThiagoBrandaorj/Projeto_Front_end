@@ -12,7 +12,7 @@ que sejam cadastrados no feed.
 
   -> ONDE ? : O sistema ficaria dentro do aplicativo da empresa PasseioRio , em uma aba especifica do aplicativo, contudo tambem sendo possivel seu acesso atraves do mapa com uma API. 
 
-  -> QUANDO ? : A qualquer hora do dia e qualquer dia da semana.
+  -> QUANDO ? : O sistema pode ser usado a qualquer hora do dia e qualquer dia da semana.
 
 >>2 - Sistema de funcionamento do feed:
 
