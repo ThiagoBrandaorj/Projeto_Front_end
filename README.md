@@ -1,6 +1,6 @@
 # Projeto de implemetanção de sistema da empresa PasseioRio
 
-### **1 - Ciclo 5W2H:**
+## **1 - Ciclo 5W2H:**
 
 - O QUÊ ? : Desenvolver para o aplicativo da empresa PasseioRio um feed de ponstagens que contenha a história, curiosidades e outros tipos de informações a respeito de novos empreendimentos imobiliários, bares e estabelecimentos da cidade do Rio de janeiro.
 
@@ -14,7 +14,7 @@
 
 - QUANDO ? : O sistema pode ser usado a qualquer hora e dia da semana, sem ter  que ou depender de um horário específico para seu funcionamento.
 
-### **2 - Requisitios do Sistema:**
+## **2 - Requisitios do Sistema:**
 
 - O sistema devcerá ter um feed interativo.
 - O design do sistema deverá ser parecido com o do "Instagram".
@@ -23,7 +23,7 @@
 - Os post realizados no sistema prototipado deverão conter informações sobre o local como: história, sua categoria (bar,prédio,casa,banco,etc),curiosidades e fotos do espaço.
 - O sistema deverá ser integrado com a API do Google maps.
 
- ### **3 - Funcionalidades do sistema:**
+ ## **3 - Funcionalidades do sistema:**
 
  **Funcionais:**
 - Um feed de noticias funcional e interativo para o usuario.
