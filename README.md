@@ -2,17 +2,17 @@
 
 ### **1 - Ciclo 5W2H:**
 
- O QUÊ ? : Desenvolver para o aplicativo da empresa PasseioRio um feed de ponstagens que contenha a história, curiosidades e outros tipos de informações a respeito de novos empreendimentos imobiliários, bares e estabelecimentos da cidade do Rio de janeiro.
+- O QUÊ ? : Desenvolver para o aplicativo da empresa PasseioRio um feed de ponstagens que contenha a história, curiosidades e outros tipos de informações a respeito de novos empreendimentos imobiliários, bares e estabelecimentos da cidade do Rio de janeiro.
 
-COMO ? : O sistema será desenvolvido usando html , css e javascript com auxílio do framework react, usando API com google maps.
+- COMO ? : O sistema será desenvolvido usando html , css e javascript com auxílio do framework react, usando API com google maps.
 
-QUEM ? : O sistema terá como público-alvo turistas, curiosos e qualquer um que tenha acesso ao aplicativo da empresa PasseioRio.
+- QUEM ? : O sistema terá como público-alvo turistas, curiosos e qualquer um que tenha acesso ao aplicativo da empresa PasseioRio.
 
-PORQUÊ ? : O maior propósito do sistema é facilitar e gameficar a entrega de informação para os usuários do app.
+- PORQUÊ ? : O maior propósito do sistema é facilitar e gameficar a entrega de informação para os usuários do app.
 
-ONDE ? : O sistema ficaria dentro do aplicativo da empresa PasseioRio, em uma aba especifica da aplicação. 
+- ONDE ? : O sistema ficaria dentro do aplicativo da empresa PasseioRio, em uma aba especifica da aplicação. 
 
-QUANDO ? : O sistema pode ser usado a qualquer hora e dia da semana, sem ter  que ou depender de um horário específico para seu funcionamento.
+- QUANDO ? : O sistema pode ser usado a qualquer hora e dia da semana, sem ter  que ou depender de um horário específico para seu funcionamento.
 
 ### **2 - Requisitios do Sistema:**
 
