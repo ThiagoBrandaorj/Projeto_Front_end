@@ -36,51 +36,6 @@
 
 ### Exploração de Pontos Turísticos:
 
-- Fornecer informações detalhadas sobre pontos turísticos icônicos, como o Cristo Redentor, o Pão de Açúcar e o Jardim Botânico.
-Oferecer direções e horários de funcionamento.
-Praias e Atividades Aquáticas:
-
-- Listar praias famosas, como Copacabana e Ipanema.
-Informações sobre condições das praias, aluguel de equipamentos de praia e atividades aquáticas, como surfe e stand-up paddle.
-Culinária Local:
-
-- Recomendar restaurantes que servem pratos típicos da culinária carioca, como a feijoada e a comida de rua.
-Fornecer informações sobre bares e restaurantes com vista para o mar.
-Eventos e Festivais:
-
-- Manter os viajantes informados sobre eventos culturais, festivais de música e carnaval.
-Possibilitar a compra de ingressos e fornecer detalhes sobre a programação.
-Transporte Público:
-
-- Oferecer informações sobre o sistema de transporte público do Rio de Janeiro, incluindo ônibus, metrô e bonde.
-Planejar rotas e fornecer horários de transporte público.
-Trilhas e Aventuras:
-
-- Listar trilhas para caminhadas nas montanhas e florestas da cidade.
-Fornecer mapas e dicas de segurança para caminhadas.
-Compras e Mercados:
-
-- Indicar mercados locais, como o Mercado de São Cristóvão, para comprar artesanato e produtos típicos.
-Informações sobre lojas de roupas de praia e lembranças.
-Vida Noturna:
-
-- Recomendar bares, boates e casas de samba para experiências noturnas.
-Informações sobre eventos e festas.
-Segurança e Emergência:
-
-- Fornecer informações de contato de serviços de emergência e hospitais.
-Dicas de segurança para turistas.
-História e Cultura:
-
-- Oferecer informações sobre museus, galerias de arte e locais históricos.
-Possibilidade de fazer passeios guiados virtuais por locais históricos.
-Reservas de Hospedagem e Restaurantes:
-
-- Facilitar reservas de hotéis, hostels e restaurantes na cidade.
-Oferecer descontos exclusivos para os usuários do aplicativo.
-Informações Meteorológicas:
-
-- Fornecer previsão do tempo para que os viajantes possam planejar suas atividades ao ar livre.
-Caminhos e Rotas Cênicas:
-
-- Sugerir rotas panorâmicas e caminhos para apreciar a beleza natural do Rio de Janeiro.
+- Turismo na Cidade: Os turistas que visitam o Rio de Janeiro podem usar o aplicativo para obter informações sobre atrações turísticas, eventos culturais, bares populares e restaurantes locais.
+- Pesquisa de Informações Culturais: Quando desejam aprender mais sobre a cultura e a história do Rio de Janeiro, os usuários podem acessar o aplicativo para ler postagens sobre curiosidades históricas, eventos culturais e tradições locais.
+- Exploração de Bares e Restaurantes: Quando desejam sair para comer ou beber, os usuários podem usar o aplicativo para descobrir novos bares e restaurantes na cidade, ver os menus, ler avaliações e verificar os horários de funcionamento.
