@@ -33,43 +33,43 @@
 - O sistema deve ser acessível pelo app do Passeio Carioca.
 - A base do sistema tem que ser o framework REACT.
 
-### **4 - Casos de Uso:**
+## **4 - Casos de Uso:**
 
-Exploração de Pontos Turísticos:
+### Exploração de Pontos Turísticos:
 
-Fornecer informações detalhadas sobre pontos turísticos icônicos, como o Cristo Redentor, o Pão de Açúcar e o Jardim Botânico.
+- Fornecer informações detalhadas sobre pontos turísticos icônicos, como o Cristo Redentor, o Pão de Açúcar e o Jardim Botânico.
 Oferecer direções e horários de funcionamento.
 Praias e Atividades Aquáticas:
 
-Listar praias famosas, como Copacabana e Ipanema.
+- Listar praias famosas, como Copacabana e Ipanema.
 Informações sobre condições das praias, aluguel de equipamentos de praia e atividades aquáticas, como surfe e stand-up paddle.
 Culinária Local:
 
-Recomendar restaurantes que servem pratos típicos da culinária carioca, como a feijoada e a comida de rua.
+- Recomendar restaurantes que servem pratos típicos da culinária carioca, como a feijoada e a comida de rua.
 Fornecer informações sobre bares e restaurantes com vista para o mar.
 Eventos e Festivais:
 
-Manter os viajantes informados sobre eventos culturais, festivais de música e carnaval.
+- Manter os viajantes informados sobre eventos culturais, festivais de música e carnaval.
 Possibilitar a compra de ingressos e fornecer detalhes sobre a programação.
 Transporte Público:
 
-Oferecer informações sobre o sistema de transporte público do Rio de Janeiro, incluindo ônibus, metrô e bonde.
+- Oferecer informações sobre o sistema de transporte público do Rio de Janeiro, incluindo ônibus, metrô e bonde.
 Planejar rotas e fornecer horários de transporte público.
 Trilhas e Aventuras:
 
-Listar trilhas para caminhadas nas montanhas e florestas da cidade.
+- Listar trilhas para caminhadas nas montanhas e florestas da cidade.
 Fornecer mapas e dicas de segurança para caminhadas.
 Compras e Mercados:
 
-Indicar mercados locais, como o Mercado de São Cristóvão, para comprar artesanato e produtos típicos.
+- Indicar mercados locais, como o Mercado de São Cristóvão, para comprar artesanato e produtos típicos.
 Informações sobre lojas de roupas de praia e lembranças.
 Vida Noturna:
 
-Recomendar bares, boates e casas de samba para experiências noturnas.
+- Recomendar bares, boates e casas de samba para experiências noturnas.
 Informações sobre eventos e festas.
 Segurança e Emergência:
 
-Fornecer informações de contato de serviços de emergência e hospitais.
+- Fornecer informações de contato de serviços de emergência e hospitais.
 Dicas de segurança para turistas.
 História e Cultura:
 
