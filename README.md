@@ -8,7 +8,7 @@
 
 - QUEM ? : O sistema terá como público-alvo turistas, curiosos e qualquer um que tenha acesso ao aplicativo da empresa PasseioRio.
 
-  - PORQUÊ ? : O maior propósito do sistema é facilitar e gameficar a entrega de informação para os usuários do app.
+- PORQUÊ ? : O maior propósito do sistema é facilitar e gameficar a entrega de informação para os usuários do app.
 
 - ONDE ? : O sistema ficaria dentro do aplicativo da empresa PasseioRio, em uma aba especifica da aplicação. 
 
