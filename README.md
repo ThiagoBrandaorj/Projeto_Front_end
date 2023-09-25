@@ -25,10 +25,10 @@
 
  ### **3 - Funcionalidades do sistema:**
 
- Funcionais:
+ **Funcionais:**
 -Um feed de noticias funcional e interativo para o usuario.
 
- Não funcionais:
+ **Não funcionais:**
 -O sistema deve ser operacional tanto em IOS quanto para Android.
 -O sistema deve ser acessível pelo app do Passeio Carioca.
 -A base do sistema tem que ser o framework REACT.
