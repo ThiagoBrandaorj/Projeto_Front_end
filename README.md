@@ -34,6 +34,6 @@
 
 ## **3 - Casos de Uso:**
 
-- **Turismo na Cidade:** Os turistas que visitam o Rio de Janeiro podem usar o aplicativo para obter informações sobre atrações turísticas, eventos culturais, bares populares e restaurantes locais.
-- **Pesquisa de Informações Culturais:** Quando desejam aprender mais sobre a cultura e a história do Rio de Janeiro, os usuários podem acessar o aplicativo para ler postagens sobre curiosidades históricas, eventos culturais e tradições locais.
-- **Exploração de Bares e Restaurantes:** Quando desejam sair para comer ou beber, os usuários podem usar o aplicativo para descobrir novos bares e restaurantes na cidade, ver os menus, ler avaliações e verificar os horários de funcionamento.
+**Caso de uso:** Visualizar Feed
+**Ator Principal:** Usuário
+**Interessados e Interesses:**
