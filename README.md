@@ -73,15 +73,15 @@ Segurança e Emergência:
 Dicas de segurança para turistas.
 História e Cultura:
 
-Oferecer informações sobre museus, galerias de arte e locais históricos.
+- Oferecer informações sobre museus, galerias de arte e locais históricos.
 Possibilidade de fazer passeios guiados virtuais por locais históricos.
 Reservas de Hospedagem e Restaurantes:
 
-Facilitar reservas de hotéis, hostels e restaurantes na cidade.
+- Facilitar reservas de hotéis, hostels e restaurantes na cidade.
 Oferecer descontos exclusivos para os usuários do aplicativo.
 Informações Meteorológicas:
 
-Fornecer previsão do tempo para que os viajantes possam planejar suas atividades ao ar livre.
+- Fornecer previsão do tempo para que os viajantes possam planejar suas atividades ao ar livre.
 Caminhos e Rotas Cênicas:
 
-Sugerir rotas panorâmicas e caminhos para apreciar a beleza natural do Rio de Janeiro.
+- Sugerir rotas panorâmicas e caminhos para apreciar a beleza natural do Rio de Janeiro.
