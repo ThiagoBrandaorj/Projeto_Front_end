@@ -35,5 +35,7 @@
 ## **3 - Casos de Uso:**
 
 **Caso de uso:** Visualizar Feed
+
 **Ator Principal:** Usuário
+
 **Interessados e Interesses:**
