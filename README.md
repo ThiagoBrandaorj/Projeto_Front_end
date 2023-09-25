@@ -14,7 +14,7 @@ ONDE ? : O sistema ficaria dentro do aplicativo da empresa PasseioRio, em uma ab
 
 QUANDO ? : O sistema pode ser usado a qualquer hora e dia da semana, sem ter  que ou depender de um horário específico para seu funcionamento.
 
-2 - Requisitios do Sistema:
+**2 - Requisitios do Sistema:**
 
 -O sistema devcerá ter um feed interativo.
 -O design do sistema deverá ser parecido com o do "Instagram".
@@ -23,7 +23,7 @@ QUANDO ? : O sistema pode ser usado a qualquer hora e dia da semana, sem ter  qu
 -Os post realizados no sistema prototipado deverão conter informações sobre o local como: história, sua categoria (bar,prédio,casa,banco,etc),curiosidades e fotos do espaço.
 -O sistema deverá ser integrado com a API do Google maps.
 
-3 - Funcionalidades do sistema:
+**3 - Funcionalidades do sistema:**
 
  Funcionais:
 -Um feed de noticias funcional e interativo para o usuario.
@@ -33,7 +33,7 @@ QUANDO ? : O sistema pode ser usado a qualquer hora e dia da semana, sem ter  qu
 -O sistema deve ser acessível pelo app do Passeio Carioca.
 -A base do sistema tem que ser o framework REACT.
 
-4 - Casos de Uso:
+**4 - Casos de Uso:**
 
 Exploração de Pontos Turísticos:
 
