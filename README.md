@@ -1,8 +1,8 @@
-# Projeto de inmplemetanção de sistema da empresa PasseioRio
+# Projeto de implemetanção de sistema da empresa PasseioRio
 
 **1 - Ciclo 5W2H:**
 
-O QUÊ ? : Desenvolver para o aplicativo da empresa PasseioRio um feed de ponstagens que contenha a história, curiosidades e outros tipos de informações a respeito de novos empreendimentos imobiliários, bares e estabelecimentos da cidade do Rio de janeiro.
+## O QUÊ ? : Desenvolver para o aplicativo da empresa PasseioRio um feed de ponstagens que contenha a história, curiosidades e outros tipos de informações a respeito de novos empreendimentos imobiliários, bares e estabelecimentos da cidade do Rio de janeiro.
 
 COMO ? : O sistema será desenvolvido usando html , css e javascript com auxílio do framework react, usando API com google maps.
 
