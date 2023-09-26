@@ -40,7 +40,7 @@
 **Ator Principal:** Usuário
 
 **Interessados e Interesses:**
-- Usuario: deseja visualizar o feed de ponstagens , visualizando em ordem cronologica de postagem as fotos e algumas informações prévias dos imóveis mais recentes ponstados.
-- Sistema :  deseja mostrar ao usuario as ultima ponstgens , algumas informações e fotos sobre o local, além de inicializar o usuario na aba de feed.
+- Usuario: deseja visualizar o feed de postagens , visualizando em ordem cronologica de postagem as fotos e algumas informações prévias dos imóveis mais recentes postados.
+- Sistema :  deseja mostrar ao usuario as ultima postagens , algumas informações e fotos sobre o local, além de inicializar o usuario na aba de feed.
 
   **Caso de uso:** 
