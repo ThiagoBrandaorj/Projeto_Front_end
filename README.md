@@ -12,11 +12,11 @@
 
 - **ONDE ? :** O sistema ficaria dentro do aplicativo da empresa PasseioRio, em uma aba especifica da aplicação. 
 
-- **QUANDO ? :** O sistema pode ser usado a qualquer hora e dia da semana, sem ter  que ou depender de um horário específico para seu funcionamento.
+- **QUANDO ? :** O sistema pode ser usado a qualquer hora e dia da semana, não dependendo de um horário específico para seu funcionamento.
 
 - As postagens mais recentes do sistema deverão ficar no topo da página, sendo visualizadas primeiro as adições mais recentes.
 
- ## **2 - Funcionalidades do sistema:**
+ ## **2 - Lista de requisitos:**
 
  **Funcionais:**
 - Um feed de noticias funcional e interativo para o usuario.
@@ -27,8 +27,9 @@
 
  **Não funcionais:**
 - O sistema deve ser operacional tanto em IOS quanto para Android.
+- O código do sistema deve estar hospedado no Github
 - O sistema deve ser acessível pelo app do Passeio Carioca.
-- A base do sistema tem que ser o framework REACT.
+- O sistema deve ser feito usando o framework REACT.
 - O sistema deverá ser integrado com a API do Google maps.
 - As postagens mais recentes do sistema deverão ficar no topo da página, sendo visualizadas primeiro as adições mais recentes.
 
