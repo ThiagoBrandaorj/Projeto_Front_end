@@ -40,21 +40,21 @@
 **Ator Principal:** Usuário
 
 **Interessados e Interesses:**
-- Usuario: deseja visualizar o feed de postagens , visualizando em ordem cronologica de postagem as fotos e algumas informações prévias dos imóveis mais recentes postados.
-- Sistema :  deseja mostrar ao usuario as ultima postagens , algumas informações e fotos sobre o local, além de inicializar o usuario na aba de feed.
+- Usuário: Deseja visualizar o feed de postagens, visualizando em ordem cronológica de postagem as fotos e algumas informações prévias dos imóveis mais recentes postados.
+- Sistema :  Deseja mostrar ao usuário as últimas postagens, algumas informações e fotos sobre o local, além de inicializar o usuário na aba de feed.
 
 **Caso de uso:** Visualizar postagem
 
 **Ator Principal:** Usuário
 
 **Interessados e Interesses:**
-- Usuario: deseja visualizar determinada postagem para obter mais informações do que as apenas apresentadas no feed, fotos e curiosidades especificas sobre o local da postagem.
-- Sistema: deseja mostrar ao usuario informações mais detalhadas do local referente a postagem ao usuario.
+- Usuário: Deseja visualizar determinada postagem para obter mais informações do que as apenas apresentadas no feed, fotos e curiosidades específicas sobre o local da postagem.
+- Sistema: Deseja mostrar ao usuário informações mais detalhadas do local referente a postagem ao usuario.
 
 **Caso de uso:** Adicionar local aos favoritos
 
 **Ator Principal:** Usuário
 
 **Interessados e Interesses:**
-- Usuario: deseja por meio de um ícone ao clicar na postagem adicionar o local da publicação aos seus própios locais favoritos do aplicativo , de maneira com que o local fique gravado na lista de locais favoritos do usuario , facilitando assim sua localização de maneira dinamica 
-- Sistema: adiciona o local selecionado pelo usuario aos locais favoritos do usuario(uma lista que ficaria a parte do feed).
+- Usuário: Deseja por meio de um ícone ao clicar na postagem adicionar o local da publicação aos seus própios locais favoritos do aplicativo, de maneira com que o local fique gravado na lista de locais favoritos do usuário, facilitando assim sua localização de maneira dinâmica .
+- Sistema: Adiciona o local selecionado pelo usuário aos locais favoritos do usuário (uma lista que ficaria a parte do feed).
