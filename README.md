@@ -51,10 +51,3 @@
 - Usuário: Deseja visualizar determinada postagem para obter mais informações do que as apenas apresentadas no feed, fotos e curiosidades específicas sobre o local da postagem.
 - Sistema: Deseja mostrar ao usuário informações mais detalhadas do local referente a postagem ao usuario.
 
-**Caso de uso:** Adicionar local aos favoritos
-
-**Ator Principal:** Usuário
-
-**Interessados e Interesses:**
-- Usuário: Deseja por meio de um ícone ao clicar na postagem adicionar o local da publicação aos seus própios locais favoritos do aplicativo, de maneira com que o local fique gravado na lista de locais favoritos do usuário, facilitando assim sua localização de maneira dinâmica .
-- Sistema: Adiciona o local selecionado pelo usuário aos locais favoritos do usuário (uma lista que ficaria a parte do feed).
