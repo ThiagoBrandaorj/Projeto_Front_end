@@ -10,7 +10,7 @@
 
 - **PORQUÊ ? :** O maior propósito do sistema é facilitar e gameficar a entrega de informação para os usuários do app.
 
-- **ONDE ? :** O sistema ficaria dentro do aplicativo da empresa PasseioRio, em uma aba especifica da aplicação. 
+- **ONDE ? :** O sistema ficaria dentro do aplicativo da empresa PasseioRio, em uma aba específica da aplicação. 
 
 - **QUANDO ? :** O sistema pode ser usado a qualquer hora e dia da semana, não dependendo de um horário específico para seu funcionamento.
 
@@ -19,7 +19,7 @@
  ## **2 - Lista de requisitos:**
 
  **Funcionais:**
-- Um feed de noticias funcional e interativo para o usuario.
+- Um feed de noticias funcional e interativo para o usuário.
 - A página do sistema deverá se movimentar apenas na vertical.
 - Os post realizados no sistema prototipado deverão conter informações sobre o local como: história, sua categoria (bar,prédio,casa,banco,etc),curiosidades e fotos do espaço.
 - O design do sistema deverá ser parecido com o do "Instagram".
