@@ -1,6 +1,7 @@
 import HelloWorld from './components/HelloWorld';
 import './App.css';
 import SayMyName from './components/SayMyName';
+import logo from './images/logo.jpg';
 
 function App() {
   const name = 'Thiago';
@@ -20,6 +21,7 @@ function App() {
       <SayMyName nome="Thiago" />
       <SayMyName nome="Breno" />
       <SayMyName nome={name2} />
+      <img src={logo} alt="Descrição da Imagem" />
     </div> 
   );
 }
