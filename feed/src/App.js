@@ -1,5 +1,6 @@
 import HelloWorld from './components/HelloWorld';
 import './App.css';
+import SayMyName from './components/SayMyName';
 
 function App() {
   const name = 'Thiago';
@@ -8,6 +9,7 @@ function App() {
     return a + b
   }
   const url = 'https://via.placeholder.com/150'
+  const name2 = 'Maria'
   return (
     <div className="App">
       <h2>Isso é um cabeçalho</h2>
@@ -15,7 +17,10 @@ function App() {
       <p>Soma: {sum(1,2)}</p>
       <img src= {url} alt = "logo da empresa"/>
       <HelloWorld/>
-    </div>
+      <SayMyName nome="Thiago" />
+      <SayMyName nome="Breno" />
+      <SayMyName nome={name2} />
+    </div> 
   );
 }
 
