@@ -3,7 +3,7 @@ import { GoogleMap, LoadScript } from '@react-google-maps/api';
 
 const MapContainer = () => {
   const mapStyles = {
-    height: '400px',
+    height: '600px',
     width: '100%',
   }
 
@@ -18,7 +18,7 @@ const MapContainer = () => {
     >
       <GoogleMap
         mapContainerStyle={mapStyles}
-        zoom={13}
+        zoom={3}
         center={defaultCenter}
       />
     </LoadScript>
