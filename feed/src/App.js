@@ -2,6 +2,7 @@ import HelloWorld from './components/HelloWorld';
 import './App.css';
 import SayMyName from './components/SayMyName';
 import logo from './images/logo.jpg';
+import MapContainer from './components/Mapconteiner';
 
 function App() {
   const name = 'Thiago';
@@ -21,6 +22,7 @@ function App() {
       <SayMyName nome="Thiago" />
       <SayMyName nome="Breno" />
       <SayMyName nome={name2} />
+      <MapContainer></MapContainer>
       <img src={logo} alt="Descrição da Imagem" />
     </div> 
   );
