@@ -7,7 +7,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 In the project directory, you can run:
 
 # Api Google Maps
-- O Google Maps oferece várias APIs que permitem que desenvolvedores incorporem funcionalidades de mapeamento e localização em aplicativos e sites. Aqui estão algumas das vantagens de usar as APIs do Google Maps:
+- ## O Google Maps oferece várias APIs que permitem que desenvolvedores incorporem funcionalidades de mapeamento e localização em aplicativos e sites. Aqui estão algumas das vantagens de usar as APIs do Google Maps:
 
 - Mapas Interativos:  permitem incorporar mapas interativos em aplicativos e sites, permitindo que os usuários visualizem, naveguem e interajam com mapas personalizados.
 
