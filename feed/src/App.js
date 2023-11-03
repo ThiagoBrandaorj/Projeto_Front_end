@@ -1,16 +1,13 @@
-import HelloWorld from './components/HelloWorld';
 import './App.css';
-import SayMyName from './components/SayMyName';
-import logo from './images/logo.jpg';
 import MapContainer from './components/Mapconteiner';
+import Frase from './components/Frase';
 
 function App() {
   return (
     <div className="App">
-      <div id='logo'>
-        <img src={logo} alt='app logo' id='corner-logo'></img>
-      </div>
+      <Frase></Frase>
       <MapContainer></MapContainer>
+      <Frase></Frase>
     </div> 
   );
 }

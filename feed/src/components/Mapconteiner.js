@@ -8,8 +8,8 @@ const MapContainer = () => {
   }
 
   const defaultCenter = {
-    lat: 0,
-    lng: 0,
+    lat: -22.9,
+    lng: -43.196388,
   }
 
   return (
@@ -18,7 +18,7 @@ const MapContainer = () => {
     >
       <GoogleMap
         mapContainerStyle={mapStyles}
-        zoom={3}
+        zoom={11}
         center={defaultCenter}
       />
     </LoadScript>
