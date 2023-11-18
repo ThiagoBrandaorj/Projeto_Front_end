@@ -1,6 +1,0 @@
-const Primeiro = () => {
-
-    const dados = [
-        
-    ]
-}

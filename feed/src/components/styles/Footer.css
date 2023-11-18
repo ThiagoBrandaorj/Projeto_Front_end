@@ -1,0 +1,17 @@
+.icons_list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    background-color: antiquewhite;
+    height: 100px;
+}
+
+.icons_list li{
+    margin: 0 1em;
+}
+
+.icons_list svg{
+    font-size: 4em;
+    cursor: pointer;
+}

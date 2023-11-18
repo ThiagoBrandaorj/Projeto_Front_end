@@ -1,13 +1,22 @@
 import './App.css';
+import FeedDeImoveis from './components/FeedDeImoveis';
+import Footer from './components/Footer';
+import Header from './components/Header';
 import MapContainer from './components/Mapconteiner';
-import Frase from './components/Frase';
+import Post from './components/Post';
 
 function App() {
   return (
     <div className="App">
-      <Frase></Frase>
-      <MapContainer></MapContainer>
-      <Frase></Frase>
+      <Header></Header>
+      <div className='div-separacao'>
+      <h1>está apenas separando os componentes...</h1>
+      </div>
+      <FeedDeImoveis/>
+      <div className='div-separacao'>
+        <h1>está apenas separando os componentes...</h1>
+      </div>
+      <Footer/>
     </div> 
   );
 }

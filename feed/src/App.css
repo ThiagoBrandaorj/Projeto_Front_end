@@ -12,6 +12,15 @@
   height: 120px;
 }
 
+.div-separacao{
+  background-color: #282c34;
+  height: 100px;
+}
+
+.div-separacao h1{
+  color: azure;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
