@@ -9,13 +9,7 @@ function App() {
   return (
     <div className="App">
       <Header></Header>
-      <div className='div-separacao'>
-      <h1>está apenas separando os componentes...</h1>
-      </div>
       <FeedDeImoveis/>
-      <div className='div-separacao'>
-        <h1>está apenas separando os componentes...</h1>
-      </div>
       <Footer/>
     </div> 
   );
