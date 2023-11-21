@@ -31,7 +31,7 @@ const FeedDeImoveis = () => {
       id: 1,
       titulo: 'Mureta da Urca',
       descricao: 'A mureta nada mais é do que um muro baixo que está ao lado da Baía de Guanabara. A Urca está na zona sul da cidade, e abriga um dos cartões postais da cidade… o cume do Pão de Açúcar! Esta é uma vizinhança tranquila e tradicional do Rio, inclusive com muitos prédios e casas bem charmosas.O local foi apelidado carinhosamente de “pobreta”. Mas temos que concordar que essa é a melhor mesa de bar da vida. A galera vai na mureta para encontrar os amigos, Happy hour depois do trabalho, ou simplesmente ler um pouco. Então você já deve imaginar que esse é o muro mais concorrido do Rio de Janeiro, principalmente no final de semana',
-      imagemURL1: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.apahotel.com.br%2Fpost%2Fde-um-passeio-pelo-bairro-da-urca-no-rio-de-janeiro-saiba-o-que-ver-e-o-que-fazer&psig=AOvVaw20kjjapLaBHRYiRCrdX0va&ust=1700591518043000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCMDv4KCb04IDFQAAAAAdAAAAABAH',
+      imagemUrl: 'https://scontent.fsdu36-1.fna.fbcdn.net/v/t39.30808-6/400613734_18363596992078242_537839160733971252_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeEpnHOHPhv-E-XRVwvMIBCjyaB5Tl4LRJ_JoHlOXgtEn5YjTnL3Y_L8XXddl40Nyi08VmbIBNDRMmqL86QrrivP&_nc_ohc=5kL9HYTXj78AX9IOkmW&_nc_ht=scontent.fsdu36-1.fna&oh=00_AfCORrLcCJNGF6oDVRo5lGLKjnabdMov4dbLDIqiOSR7-A&oe=6562025F',
     },
     {
       id: 2,
@@ -77,6 +77,8 @@ const FeedDeImoveis = () => {
     },
     // Adicione mais postagens conforme necessário
   ];
+
+
 
   const [dados, setDados] = useState(postagens);
 

@@ -1,10 +1,15 @@
-const Post = ({titulo, descricao, imagemURL1}) => {
+import styled from 'styled-components';
+
+
+const Post = ({titulo, descricao, imagemUrl}) => {
     return(
+        <>
         <div>
             <h2>{titulo}</h2>
             <p>{descricao}</p>
-            <img src={imagemURL1} alt="local 1"></img>
+            <img src={imagemUrl} alt="img 1"></img>
         </div>
+        </>
     )
 }
 
