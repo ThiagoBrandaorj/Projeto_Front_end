@@ -30,7 +30,7 @@
 - O código do sistema deve estar hospedado no Github
 - O sistema deve ser acessível pelo app do Passeio Carioca.
 - O sistema deve ser feito usando o framework REACT.
-- O sistema deverá ser integrado com a API do Google maps.
+- O sistema deverá ser integrado com a API Leaflet map.
 - As postagens mais recentes do sistema deverão ficar no topo da página, sendo visualizadas primeiro as adições mais recentes.
 
 ## **3 - Casos de Uso:**
