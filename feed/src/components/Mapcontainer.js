@@ -7,9 +7,13 @@ const MapContainer = ({ latitude, longitude }) => {
     width: '50%',
   };
 
+  var latitude = parseFloat(latitude);
+  var longitude = parseFloat(longitude);
+
+
   const defaultCenter= {
-    lat: {latitude},
-    lng: {longitude},
+    lat: latitude,
+    lng: longitude
   };
 
   return (
