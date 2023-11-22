@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ThiagoBrandaorj/Projeto_Front_end/static/css/main.9adb85f6.css",
+    "main.js": "/ThiagoBrandaorj/Projeto_Front_end/static/js/main.8231bc0f.js",
+    "static/js/787.574d3302.chunk.js": "/ThiagoBrandaorj/Projeto_Front_end/static/js/787.574d3302.chunk.js",
+    "index.html": "/ThiagoBrandaorj/Projeto_Front_end/index.html",
+    "main.9adb85f6.css.map": "/ThiagoBrandaorj/Projeto_Front_end/static/css/main.9adb85f6.css.map",
+    "main.8231bc0f.js.map": "/ThiagoBrandaorj/Projeto_Front_end/static/js/main.8231bc0f.js.map",
+    "787.574d3302.chunk.js.map": "/ThiagoBrandaorj/Projeto_Front_end/static/js/787.574d3302.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9adb85f6.css",
+    "static/js/main.8231bc0f.js"
+  ]
+}
