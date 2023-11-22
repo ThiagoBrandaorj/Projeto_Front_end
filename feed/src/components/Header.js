@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
+
 const StyledHeader = styled.h1`
   font-family: 'Irish Grover', sans-serif;
   color: white; 
@@ -16,9 +17,16 @@ const HeaderContainer = styled.div`
   justify-content: center; /* Centraliza horizontalmente os itens dentro do contêiner */
 `;
 
+const logoStyle = styled.img`
+  justify-content: left;
+`
+
 const Header = () => {
   return (
     <HeaderContainer>
+      <logoStyle>
+      <img src='../images/logo.jpg'/>
+      </logoStyle>
       <StyledHeader>Passeio Carioca</StyledHeader>
     </HeaderContainer>
   );

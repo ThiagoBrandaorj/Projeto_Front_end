@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { FaFacebook , FaInstagram } from "react-icons/fa";
-import { IoIosMail } from "react-icons/io";
+import { IoIosMail, IoMdColorFill } from "react-icons/io";
 
 const StyledFooter = styled.footer`
   background-color: #6990F4;
@@ -20,8 +20,8 @@ const Footer = () => {
         Contato: passeiocarioca@email.com
     
       &copy; 2023 Meu Site
-      <FaFacebook size={100}/>
-      <FaInstagram/>
+      <FaFacebook size={50}/>
+      <FaInstagram size={50}/>
       <IoIosMail/>
     </StyledFooter>
   );

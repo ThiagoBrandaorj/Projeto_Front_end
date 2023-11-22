@@ -64,14 +64,16 @@ const FeedDeImoveis = () => {
     },
     {
       id: 6,
-      titulo: 'Bar do Zeca Pagodinho',
-      endereco: 'av.meu_pau',
-      descricao: 'O Bar do Zeca Pagodinho homenageia um dos artistas que mais personifica o samba. O Bar é um espaço temático onde o público pode conhecer a trajetória de Zeca Pagodinho, através de imagens, fotos e elementos ligados a vida do sambista.Líder em entretenimento, oferecemos música ao vivo de altíssima qualidade, comida tradicional de boteco, cerveja gelada e drinks exclusivos. O Bar do Zeca Pagodinho tornou-se um cobiçado ponto turístico.',
+      titulo: 'Edifício Dourado',
+      endereco: 'Rua Visconde de Pirajá, 571 - Ipanema',
+      descricao: 'foi construído por José Coelho & Garrido. São seis andares e oito apartamentos por pavimento. As unidades são de sala e quarto e sala dois quartos que variam de 55 a 85 m2./n A fachada art déco e o hall do Dourado passaram por modificações. Há muitos anos o prédio teve suas varandas fechadas, o mármore do hall de entrada retirado e o revestimento original pintado além da colocação de pastilhas. A alteração mais evidente foi o surgimento de lojas nos apartamentos frontais do térreo, gerando uma área aberta para os apartamentos de frente do segundo andar, logo acima do teto das lojas. Os elevadores ainda são originais. Até a década de 1960 às unidades de fundos dos andares mais altos tinham vista para a praia. ',
       imagemUrl: '',
+      lat: '-22.984078887212206',
+      long: '-43.21220609910149'
     },
     {
       id: 7,
-      titulo: 'Bar Carioca da Gema',
+      titulo: 'Bar carioca da gema',
       endereco: 'av.meu_pau',
       descricao: 'Cria da cidade maravilhosa o Carioca da Gema é naturalmente privilegiado, nasce numa fonte inesgotável de prazer e leva a vida cercado de uma rica tradição cultural. O carioca traz na alma o mapa da alegria, da descontração, da musicalidade e da poesia. A natureza garante a inspiração criando um cenário de muito sol, samba, praia e futebol, fiéis e inseparáveis companheiros, da zona norte a zona sul.Desse espírito despojado, resultado de uma grande mistura de raças, e uma infinidade de influências culturais, nasceu duas das mais fortes expressões musicais o samba e o chorinho; gêneros populares, consagrados, que traduzem a vida em arte, e transformam tristeza em alegria. Uma química de um povo sensível que vem ganhando destaque no mundo atraindo atenção e o interesse de outras culturas na difusão e promoção desse jeito de ser, da arte popular.Desde 2000 o Café Musical Carioca da Gema apresenta o que há de melhor da música popular brasileira através desses dois gêneros tradicionais cariocas. Reconhecido pela conquista de prêmios a cargo de uma exclusiva programação musical, da originalidade artística, e da inovação na área da gastronomia. Ao longo do tempo vem se destacando pelos melhores atributos do espírito carioca. Através do desempenho de seus melhores artistas, músicos, intérpretes e cantores. Uma reunião especial de prazer e qualidade, ambiente, serviço, música e gastronomia. Com os melhores artistas e músicos; do melhor chope, da cerveja mais gelada, do melhor samba, e um grande público em torno da nossa cultura popular carioca.Localizado no histórico bairro da lapa, no Centro do Rio de Janeiro, o Carioca da Gema se fez pelo pioneirismo em ocupar antigos casarões do bairro, para apresentar o que há de melhor no cenário musical popular.',
       imagemUrl: '',
@@ -118,8 +120,11 @@ const FeedDeImoveis = () => {
           <Post
             key={postagem.id}
             titulo={postagem.titulo}
+            endereco={postagem.endereco}
             descricao={postagem.descricao}
             imagemUrl={postagem.imagemUrl}
+            lat = {postagem.lat}
+            long= {postagem.long}
           />
         ))}
       </FeedContainer>
