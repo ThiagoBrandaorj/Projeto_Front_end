@@ -3,28 +3,24 @@ import styled from 'styled-components';
 import Post from './Post';
 import { FaSearch } from "react-icons/fa";
 
-
-
-
 const FeedContainer = styled.div`
-  border: 1px solid black; /* Borda preta */
+  border: 1px solid black; 
   border-radius: 16px;
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  align-items: center; /* Centraliza os itens horizontalmente */
-  justify-content: center; /* Centraliza os itens verticalmente */
+  align-items: center; 
+  justify-content: center; 
   width: 100%;
   max-width: 30rem;
   background-color: #F6F6F6;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  margin: 0.5rem auto; /* Auto para centralizar horizontalmente */
+  margin: 0.5rem auto; 
   
   @media (max-width: 500px) {
     width: 100%;
   }
 `;
-
 
 const FilterContainer = styled.div`
   display: flex;
@@ -126,9 +122,7 @@ const FeedDeImoveis = () => {
       lat: -22.907486502574415,
       long: -43.183819643433424
     },
-    // Adicione mais postagens conforme necessário
   ];
-
 
 
   const [dados, setDados] = useState(postagens);

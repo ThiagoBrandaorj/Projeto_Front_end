@@ -13,14 +13,14 @@ const HeaderContainer = styled.div`
   padding: 10px; 
   top: 0; 
   z-index: 1000; 
-  align-items: center; /* Centraliza verticalmente os itens dentro do contêiner */
-  justify-content: center; /* Centraliza horizontalmente os itens dentro do contêiner */
+  align-items: center; 
+  justify-content: center; 
 `;
 
 const Header = () => {
   return (
     <HeaderContainer>
-      <img src='../images/logo.jpg'/>
+      
       <StyledHeader>Passeio Carioca</StyledHeader>
     </HeaderContainer>
   );
