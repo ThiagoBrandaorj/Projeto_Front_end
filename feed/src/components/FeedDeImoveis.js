@@ -31,13 +31,13 @@ const FeedDeImoveis = () => {
       id: 1,
       titulo: 'Mureta da Urca',
       descricao: 'A mureta nada mais é do que um muro baixo que está ao lado da Baía de Guanabara. A Urca está na zona sul da cidade, e abriga um dos cartões postais da cidade… o cume do Pão de Açúcar! Esta é uma vizinhança tranquila e tradicional do Rio, inclusive com muitos prédios e casas bem charmosas.O local foi apelidado carinhosamente de “pobreta”. Mas temos que concordar que essa é a melhor mesa de bar da vida. A galera vai na mureta para encontrar os amigos, Happy hour depois do trabalho, ou simplesmente ler um pouco. Então você já deve imaginar que esse é o muro mais concorrido do Rio de Janeiro, principalmente no final de semana',
-      imagemUrl: 'https://scontent.fsdu36-1.fna.fbcdn.net/v/t39.30808-6/400613734_18363596992078242_537839160733971252_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeEpnHOHPhv-E-XRVwvMIBCjyaB5Tl4LRJ_JoHlOXgtEn5YjTnL3Y_L8XXddl40Nyi08VmbIBNDRMmqL86QrrivP&_nc_ohc=5kL9HYTXj78AX9IOkmW&_nc_ht=scontent.fsdu36-1.fna&oh=00_AfCORrLcCJNGF6oDVRo5lGLKjnabdMov4dbLDIqiOSR7-A&oe=6562025F',
+      imagemUrl: 'https://www.infoescola.com/wp-content/uploads/2010/04/banana_600797891.jpg',
     },
     {
       id: 2,
       titulo: 'Bar Amarelinho',
       descricao: 'A Cinelândia concentra um dos mais belos conjuntos arquitetônicos de influência europeia no Rio de Janeiro, e sempre foi ponto de encontro de artistas, militantes de diversas cores e toda sorte de intelectuais. Lá foi fundado, em 1921, o Amarelinho, que se mantém até hoje no mesmo endereço e coleciona um baú de lembranças que fazem parte da história da cidade. São infinitos os episódios testemunhados por quem acompanhou acontecimentos marcantes, rememorados pelos frequentadores e antigos funcionários. Até hoje, turistas nacionais e estrangeiros que passam pelo Amarelinho, ao irem embora, pedem para levar qualquer lembrancinha que seja, de uma xícara a um guardanapo que tenha o logotipo do bar e sirva como prova de que lá estiveram.  Nas mesas espalhadas pela calçada, os clientes apreciam o movimento cotidiano, como se estivessem em camarotes. Em época de Carnaval, a concentração de foliões começa a partir das 8h, aguardando o desfile do Cordão da Bola Preta. Há também os saudosistas, que aparecem para lembrar outras épocas de suas vidas, e os que vão para afogar as mágoas ou comemorar alguma coisa. Em ambos os casos, já aconteceu do garçom levá-los para casa de táxi, uma solidariedade típica de cariocas.Para atender clientes de muitas procedências, nada melhor que um variado cardápio, com pratos fartos que geralmente dão para duas pessoas. Os mais pedidos são a feijoada, servida às sextas-feiras, o churrasco misto, a picanha e o cozido, servidos às quintas-feiras. O chope é muito bem tirado, combinando com a farta porção de batatas fritas, entre outros petiscos, dos quais o carro-chefe é o frango à passarinho, seguido pela concorrida  codorna.',
-      imagemUrl: 'url_da_imagem_apartamento1.jpg',
+      imagemUrl: '../images/arpoador.jpg',
     },
     {
       id: 3,
@@ -92,6 +92,8 @@ const FeedDeImoveis = () => {
     setDados(resposta);
   }
 
+  const reversed = dados.reverse();
+
   return (
     <>
       <FilterContainer>
@@ -104,7 +106,7 @@ const FeedDeImoveis = () => {
       </FilterContainer>
 
       <FeedContainer>
-        {dados.map((postagem) => (
+        {reversed.map((postagem) => (
           <Post
             key={postagem.id}
             titulo={postagem.titulo}
