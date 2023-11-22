@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
-import MapContainer from './Mapcontainer.js';
+import Leafletmap from './Leafletmap.js';
+import 'leaflet/dist/leaflet.css';
+
 
 const Post = ({ titulo, descricao, endereco, imagemUrl, lat, long }) => {
   const [mostrarDescricaoCompleta, setMostrarDescricaoCompleta] = useState(false);
@@ -19,7 +21,7 @@ const Post = ({ titulo, descricao, endereco, imagemUrl, lat, long }) => {
           {mostrarDescricaoCompleta ? 'Ver menos' : 'Ver mais'}
         </button>
       )}
-      {mostrarDescricaoCompleta && <MapContainer latitude={lat} longitude={long} />}
+      {mostrarDescricaoCompleta && <Leafletmap latitude={lat} longitude={long} />}
     </div>
   );
 };
