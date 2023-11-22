@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Leafletmap from './Leafletmap.js';
 import 'leaflet/dist/leaflet.css';
+import styled from 'styled-components';
 
 
 const Post = ({ titulo, descricao, endereco, imagemUrl, lat, long }) => {
@@ -9,6 +10,11 @@ const Post = ({ titulo, descricao, endereco, imagemUrl, lat, long }) => {
   const handleVerMaisClick = () => {
     setMostrarDescricaoCompleta(!mostrarDescricaoCompleta);
   };
+
+  const CenteredDiv = styled.div`
+  text-align: center;
+  margin: 0 auto; 
+`;
 
   return (
     <div>
@@ -21,7 +27,9 @@ const Post = ({ titulo, descricao, endereco, imagemUrl, lat, long }) => {
           {mostrarDescricaoCompleta ? 'Ver menos' : 'Ver mais'}
         </button>
       )}
+     
       {mostrarDescricaoCompleta && <Leafletmap latitude={lat} longitude={long} />}
+      
     </div>
   );
 };

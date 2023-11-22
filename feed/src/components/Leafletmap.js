@@ -4,15 +4,22 @@ import styled from "styled-components";
 import L from 'leaflet';
 
 const Mapstyle = styled.div`
-    border-radius: 8px;
+  width: 100%;
+  margin-top:10px;
   margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px; 
+  
+  
 `
 
 const customIcon = new L.Icon({
-    iconUrl: 'https://th.bing.com/th/id/OIP.jsBQL04RxeNPuuCRzQlpkAHaHa?rs=1&pid=ImgDetMain',
-    iconSize: [24, 24], // Tamanho do ícone
-    iconAnchor: [16, 32], // Ponto de ancoragem do ícone (onde ele estará posicionado no mapa)
-    popupAnchor: [10, -32], // Ponto de ancoragem do popup (onde aparecerá em relação ao ícone)
+    iconUrl: '../images/pin.png',
+    iconSize: [24, 24], 
+    iconAnchor: [16, 32], 
+    popupAnchor: [10, -32], 
   });
 
 const Leafletmap = ({ latitude, longitude }) => {
@@ -22,19 +29,21 @@ const Leafletmap = ({ latitude, longitude }) => {
     const position = [latitude, longitude];
 
     return (
+     
         <Mapstyle>
-        <MapContainer center={position} zoom={6} style={{ height: '300px', width: '50%' }} scrollWheelZoom={true}>
+        <MapContainer center={position} zoom={6} style={{ height: '300px', width: '100%', }} scrollWheelZoom={true}>
           <TileLayer
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
             attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           />
           <Marker position={position} icon={customIcon}>
             <Popup>
-              A pretty CSS3 popup. <br /> Easily customizable.
+              Localização <br /> 
             </Popup>
           </Marker>
         </MapContainer>
         </Mapstyle>
+      
       );
 };
 

@@ -9,12 +9,13 @@ const StyledHeader = styled.h1`
 `;
 
 const HeaderContainer = styled.div`
-  background-color: #6990F4; 
+  background-color: #09308D; 
   padding: 10px; 
   top: 0; 
   z-index: 1000; 
   align-items: center; 
   justify-content: center; 
+  border-bottom: 1px solid black;
 `;
 
 const Header = () => {
