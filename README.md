@@ -49,5 +49,5 @@
 
 **Interessados e Interesses:**
 - Usuário: Deseja visualizar determinada postagem para obter mais informações do que as apenas apresentadas no feed, fotos e curiosidades específicas sobre o local da postagem.
-- Sistema: Deseja mostrar ao usuário informações mais detalhadas do local referente a postagem ao usuario.
+- Sistema: Deseja mostrar ao usuário informações mais detalhadas do local referente a postagem ao usuário.
 
