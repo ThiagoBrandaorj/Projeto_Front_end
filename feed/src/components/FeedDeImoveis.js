@@ -4,9 +4,27 @@ import Post from './Post';
 import { FaSearch } from "react-icons/fa";
 
 
+
+
 const FeedContainer = styled.div`
-  background-color: cadetblue;
+  border: 1px solid black; /* Borda preta */
+  border-radius: 16px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centraliza os itens horizontalmente */
+  justify-content: center; /* Centraliza os itens verticalmente */
+  width: 100%;
+  max-width: 30rem;
+  background-color: #F6F6F6;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 0.5rem auto; /* Auto para centralizar horizontalmente */
+  
+  @media (max-width: 500px) {
+    width: 100%;
+  }
 `;
+
 
 const FilterContainer = styled.div`
   display: flex;
@@ -25,63 +43,72 @@ const EntradaFiltro = styled.input`
   margin-left: 8px;
 `;
 
+const PostContainer = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 10px; 
+  max-width: 400px; 
+  margin: 0 auto; 
+`;
+
 const FeedDeImoveis = () => {
   const postagens = [
     {
       id: 1,
-      titulo: 'Mureta da Urca',
-      endereco: 'av.meu_pau',
-      descricao: 'A mureta nada mais é do que um muro baixo que está ao lado da Baía de Guanabara. A Urca está na zona sul da cidade, e abriga um dos cartões postais da cidade… o cume do Pão de Açúcar! Esta é uma vizinhança tranquila e tradicional do Rio, inclusive com muitos prédios e casas bem charmosas.O local foi apelidado carinhosamente de “pobreta”. Mas temos que concordar que essa é a melhor mesa de bar da vida. A galera vai na mureta para encontrar os amigos, Happy hour depois do trabalho, ou simplesmente ler um pouco. Então você já deve imaginar que esse é o muro mais concorrido do Rio de Janeiro, principalmente no final de semana',
-      imagemUrl: 'https://www.infoescola.com/wp-content/uploads/2010/04/banana_600797891.jpg'
+      titulo: 'Paço Imperial',
+      endereco: 'Praça XV de Novembro, 48 - Centro',
+      descricao: 'O Paço Imperial é um edifício histórico localizado na atual Praça XV de Novembro, no centro da cidade do Rio de Janeiro, Brasil.Construído no século XVIII para residência dos governadores da Capitania do Rio de Janeiro, passou a ser a casa de despachos, sucessivamente, do Vice-Rei do Brasil, do Rei de Portugal Dom João VI e dos Imperadores do Brasil, sofrendo ampliações no século XIX. Atualmente é um centro cultural. Pela sua importância histórica e estética, o Paço Imperial é considerado o mais importante dos edifícios civis coloniais do Brasil.',
+      imagemUrl: '../images/paco.jpg'
     },
     {
       id: 2,
       titulo: 'Bar Amarelinho',
-      endereco: 'av.meu_pau',
+      endereco: 'Praça Floriano, 55 - loja B - Cinelândia',
       descricao: 'A Cinelândia concentra um dos mais belos conjuntos arquitetônicos de influência europeia no Rio de Janeiro, e sempre foi ponto de encontro de artistas, militantes de diversas cores e toda sorte de intelectuais. Lá foi fundado, em 1921, o Amarelinho, que se mantém até hoje no mesmo endereço e coleciona um baú de lembranças que fazem parte da história da cidade. São infinitos os episódios testemunhados por quem acompanhou acontecimentos marcantes, rememorados pelos frequentadores e antigos funcionários. Até hoje, turistas nacionais e estrangeiros que passam pelo Amarelinho, ao irem embora, pedem para levar qualquer lembrancinha que seja, de uma xícara a um guardanapo que tenha o logotipo do bar e sirva como prova de que lá estiveram.  Nas mesas espalhadas pela calçada, os clientes apreciam o movimento cotidiano, como se estivessem em camarotes. Em época de Carnaval, a concentração de foliões começa a partir das 8h, aguardando o desfile do Cordão da Bola Preta. Há também os saudosistas, que aparecem para lembrar outras épocas de suas vidas, e os que vão para afogar as mágoas ou comemorar alguma coisa. Em ambos os casos, já aconteceu do garçom levá-los para casa de táxi, uma solidariedade típica de cariocas.Para atender clientes de muitas procedências, nada melhor que um variado cardápio, com pratos fartos que geralmente dão para duas pessoas. Os mais pedidos são a feijoada, servida às sextas-feiras, o churrasco misto, a picanha e o cozido, servidos às quintas-feiras. O chope é muito bem tirado, combinando com a farta porção de batatas fritas, entre outros petiscos, dos quais o carro-chefe é o frango à passarinho, seguido pela concorrida  codorna.',
-      imagemUrl: '../images/arpoador.jpg',
+      imagemUrl: '../images/baramarelinho.jpg',
     },
     {
       id: 3,
-      titulo: 'Pão de Açúcar',
-      endereco: 'av.meu_pau',
-      descricao: 'Um dos mais belos pontos turísticos do Rio de Janeiro e um dos mais famosos do Brasil. Trabalhamos com a missão de transportar pessoas para um mundo de encantamento, lazer e entretenimento, gerando experiências felizes, inesquecíveis e que valorizem a cultura brasileira. Investimos constantemente em segurança, conforto e inovação. Somos um marco natural, geológico, histórico e turístico da cidade do Rio de Janeiro. Marco natural, por ser um referencial para os navegadores que vêm à Baía de Guanabara. Marco geológico, pois é um sítio geológico com datações precisas da história do planeta. Marco histórico, porque aos seus pés, Estácio de Sá, em 1º de março de 1565, fundou a Cidade de São Sebastião do Rio de Janeiro. E, marco turístico, porque a inauguração do teleférico do Pão de Açúcar projetou o nome do Brasil no exterior. Fomos o primeiro teleférico instalado no Brasil e o terceiro no mundo.',
-      imagemUrl: 'url_da_imagem_apartamento1.jpg',
+      titulo: 'Igreja de São José',
+      endereco: 'Av. Presidente Antônio Carlos - Centro',
+      descricao: 'O templo dedicado a São José teve sua origem em uma pequena ermida construída em 1608 pelo ermitão Egas Muniz, a capela serviu, a partir de 1659, como Matriz e Sé do Rio de Janeiro e foi submetida a diversas reconstruções. No século seguinte, a igreja voltou a sofrer novas obras entre 1725 e 1729. Em 1751 é a Matriz da freguesia de São José. Em 1807, a Irmandade de São José deu início às obras da atual Igreja sob a responsabilidade do Mestre Félix José de Souza, substituído, em 1815, pelo arquiteto do Paço, João da Silva Muniz, sendo inaugurada em 1842. A igreja de estilo barroco tardio possui nave única e corredores laterais onde se localizam um púlpito e três tribunas, na capela-mor tem abóbada semelhante à da nave, e possui duas tribunas por banda. Seu interior é decorado com talha de estilo rococó de autoria de Simeão de Nazaré, discípulo do Mestre Valentim. Em seu frontispício pesado predominam os elementos horizontais de cantaria, compostos pela cimalha, pelo embasamento das duas sineiras e do acrotério central. Numa delas está instalado o famoso carrilhão, ali existente desde 1883. De sua imaginária destacou-se a imagem de São José procedente da França e doada à Irmandade pelo Comendador José Pinto de Oliveira, em 1884, e o grupo escultórico localizado atrás do altar-mor com figuras de São José abatido pela doença, Maria e Jesus. No arquivo da Irmandade, dos mais importantes da cidade, conservam-se livros que pertenceram à confraria dos carpinteiros e pedreiros do Rio de Janeiro, a confraria de São José.',
+      imagemUrl: '../images/igrejasaojose.jpg',
     },
     {
       id: 4,
-      titulo: 'Corcovado',
-      endereco: 'av.meu_pau',
-      descricao: 'No topo da cidade está instalado Cristo Redentor, os lados turísticos mais procurados do Brasil e do Rio de JaneiroMaior e mais famosa escritura Art Déco do mundo, a estátua de Cristo começou a ser planejada em 1921 e foi desenvolvida pelo engenheiro Heitor da Silva Costa ao longo de 6 anos de trabalho, de 1925 a 1931, o ano de abertura do monumento Localizado no Parque Nacional da Tijuca, a 710 metros acima do nível do mar, onde qualquer um pode apreciar uma das mais belas vistas da cidade. Ao longo de todos os 220 degraus que levam aos famosos pés da estátua, foi eleita uma das Sete Maravilhas do Mundo, realizada por votação formal em 2007 pela New 7 Wonders Foundation da Instituição Suíça. O monumento é acessível de trem, van ou carro. Para entrar no monumento, há um bom passeio de trem que, durante 20 minutos, atravessa a Mata Atlântica até o topo do Corcovado.',
-      imagemUrl: '',
+      titulo: 'Museu Histórico Nacional',
+      endereco: 'Praça Marechal Âncora S/N - Centro',
+      descricao: 'O Museu Histórico Nacional (MHN) é um museu dedicado à história do Brasil, localizado na praça Marechal Âncora, no centro histórico da cidade do Rio de Janeiro, no Brasil. Foi criado em 1922 pelo presidente Epitácio Pessoa, como parte das comemorações do Centenário da Independência do Brasil e o seu primeiro diretor foi o advogado e jornalista Gustavo Barroso.O museu é uma das unidades museológicas do Instituto Brasileiro de Museus (Ibram) - autarquia federal ligada ao Ministério da Cultura - e possui um acervo constituído por mais de 300 mil itens arquivísticos, bibliográficos e museológicos. São manuscritos, iconografia, mobiliário, armaria, esculturas, indumentária, entre outros itens.',
+      imagemUrl: '../images/museuhistorico.jpg',
     },
     {
       id: 5,
-      titulo: 'Mirante do Leblon',
-      endereco: 'av.meu_pau',
-      descricao: 'O mirante está localizado na praia do Leblon, um bairro da Zona Sul do Rio de Janeiro. Na verdade, o espaço foi construído em um deck (plataformas ou pranchas) de madeira. Ele está no final da praia do Leblon e início da Avenida Niemeyer, sobre as rochas e possui também uma cerca de madeira.Ao longo da orla se encontram coqueiros e pedras portuguesas, que se estendem por toda a orla da praia até o Leme. De lá é possível ter uma vista de toda a orla do bairro do Leblon, Ipanema e São Conrado.',
-      imagemUrl: '../images/mirantedoleblon.jpg',
+      titulo: 'Edifício Monte',
+      endereco: 'Rua das Laranjeiras, nº 531',
+      descricao: 'Sua história teve início em 1929, quando o patriarca da família Monte construiu um edifício exuberante de seis andares para sua família morar e alugar as demais unidades. Os 42 apartamentos são de diversos tamanhos: quarto e sala, dois e três quartos. A fachada do Monte está totalmente escondida pelas árvores do seu gigantesco jardim frontal. Essa área tem até um campinho de futebol para as crianças brincarem. Os detalhes (arcos, pilastras, frisos) só puderam ser vistos do alto da casa que fica do outro lado da rua. O Monte continua sendo um prédio familiar, quase todas as unidades pertencem aos descendentes do construtor. Talvez seja por isso que a parte externa anda sofrendo com a ação do tempo sem interferências dos moradores. Para se chegar ao hall de entrada é preciso passar pelos quatro pilares que sustentam a exótica varanda do segundo andar. Por dentro o Monte é repleto de referências dos estilos art nouveau e art déco. O elevador social é amarelo e marrom, já o de serviço é todo verde. A estrutura interna de ambos é a mesma: seis grades retangulares de ferro, uma porta pantográfica e um lustre. Todas as portas, fechaduras e janelas ainda são originais. Atrás do edifício existe uma construção de dois pavimentos. Em cima estão mais dois apartamentos, e em baixo as oito vagas de garagem existentes no prédio. Atualmente, duas unidades estão disponíveis para aluguel. Visitei uma delas e me senti na década de 1930, um apartamento de dois quartos e 83m2. Estão pedindo R$2.500 mensais por esse oásis de tranquilidade em meio ao burburinho da Rua das Laranjeiras. Em 2016, o Edifício Monte serviu de locação para a série do canal Multishow “TOC´s de Dalila”, escrita e protagonizada por Heloísa Périssé. Há 88 anos essa construção é um dos maiores orgulhos do bairro ',
+      imagemUrl: '../images/laranjeiras.jpg',
     },
     {
       id: 6,
       titulo: 'Bar do Zeca Pagodinho',
-      endereco: 'av.meu_pau',
+      endereco: 'Avenida das Américas, 8585',
       descricao: 'O Bar do Zeca Pagodinho homenageia um dos artistas que mais personifica o samba. O Bar é um espaço temático onde o público pode conhecer a trajetória de Zeca Pagodinho, através de imagens, fotos e elementos ligados a vida do sambista.Líder em entretenimento, oferecemos música ao vivo de altíssima qualidade, comida tradicional de boteco, cerveja gelada e drinks exclusivos. O Bar do Zeca Pagodinho tornou-se um cobiçado ponto turístico.',
-      imagemUrl: '',
+      imagemUrl: '../images/bardozeca.jpg',
     },
     {
       id: 7,
       titulo: 'Bar Carioca da Gema',
-      endereco: 'av.meu_pau',
+      endereco: 'Av. Mem de Sá, 79 - Centro',
       descricao: 'Cria da cidade maravilhosa o Carioca da Gema é naturalmente privilegiado, nasce numa fonte inesgotável de prazer e leva a vida cercado de uma rica tradição cultural. O carioca traz na alma o mapa da alegria, da descontração, da musicalidade e da poesia. A natureza garante a inspiração criando um cenário de muito sol, samba, praia e futebol, fiéis e inseparáveis companheiros, da zona norte a zona sul.Desse espírito despojado, resultado de uma grande mistura de raças, e uma infinidade de influências culturais, nasceu duas das mais fortes expressões musicais o samba e o chorinho; gêneros populares, consagrados, que traduzem a vida em arte, e transformam tristeza em alegria. Uma química de um povo sensível que vem ganhando destaque no mundo atraindo atenção e o interesse de outras culturas na difusão e promoção desse jeito de ser, da arte popular.Desde 2000 o Café Musical Carioca da Gema apresenta o que há de melhor da música popular brasileira através desses dois gêneros tradicionais cariocas. Reconhecido pela conquista de prêmios a cargo de uma exclusiva programação musical, da originalidade artística, e da inovação na área da gastronomia. Ao longo do tempo vem se destacando pelos melhores atributos do espírito carioca. Através do desempenho de seus melhores artistas, músicos, intérpretes e cantores. Uma reunião especial de prazer e qualidade, ambiente, serviço, música e gastronomia. Com os melhores artistas e músicos; do melhor chope, da cerveja mais gelada, do melhor samba, e um grande público em torno da nossa cultura popular carioca.Localizado no histórico bairro da lapa, no Centro do Rio de Janeiro, o Carioca da Gema se fez pelo pioneirismo em ocupar antigos casarões do bairro, para apresentar o que há de melhor no cenário musical popular.',
-      imagemUrl: '',
+      imagemUrl: '../images/barcariocadagema.jpg',
     },
     {
       id: 8,
-      titulo: 'Praia do Arpoador',
-      endereco: 'av.meu_pau',
-      descricao: 'A Praia do Arpoador recebe pessoas do mundo todo com uma surpreendente paisagem rochosa. Entre os bairros de Ipanema e Copacabana, essa praia que ocupa uma faixa de 500 metros de comprimento é um reduto de boêmios, poetas, artistas e pessoas da velha guarda carioca com muita história para contar. O nome Arpoador tem origem na antiga atividade de caça a baleias, feita por povos nativos e portugueses perto da costa brasileira.',
-      imagemUrl: '',
+      titulo: 'Antigo Solar do Visconde do Rio Seco',
+      endereco: ' Praça Tiradentes, nº 67  II R.A. - Centro',
+      descricao: 'Localizado num dos cantos do antigo largo do Rossio na esquina da rua Nova do Conde (respectivamente praça Tiradentes e rua Barão do Rio Branco atuais), o edifício já existia no início do século XIX quando o príncipe regente d. João chegou ao Brasil. Logo em seguida foi reformado e ganhou ornamentação de gosto neoclássico. Foi residência do barão do Rio Seco, até 1836, sede do elegante Clube Fluminense em 1860. A mais duradoura função do velho palacete foi como sede da Secretaria / Ministério da Justiça e Negócios do Interior desde o segundo reinado (1873) até 1930. A partir de 1934 passa a abrigar o Departamento de Trânsito, sucessivamente, do Distrito Federal e dos Estados da Guanabara e do Rio de Janeiro. A construção atual tem partido compacto com três pavimentos de planta retangular desenvolvida em torno de um pátio interno. A simplicidade austera do seu aspecto exterior com embasamento de pedra e linhas retas é suavizada pelas estátuas sobre os cunhais e pela platibanda com folhas de acanto estilizadas, em harmoniosa obediência à regra clássica. Desde o decênio de 1990, o edifício encontra- se desocupado. Foi posteriormente tombado pelo Iphan e hoje integra o projeto de revitalização da praça Tiradentes, como parte do programa.',
+      imagemUrl: '../images/solar.jpg',
     },
     // Adicione mais postagens conforme necessário
   ];
@@ -103,27 +130,25 @@ const FeedDeImoveis = () => {
   const reversed = dados.reverse();
 
   return (
-    <>
+   
+    <FeedContainer>
       <FilterContainer>
         <FilterIcon />
-        <EntradaFiltro
-          type='text'
-          placeholder='Informe o título'
-          onChange={(e) => filtrar(e.target.value)}
-        />
+        <EntradaFiltro type="text" placeholder="Filtrar" />
       </FilterContainer>
-
-      <FeedContainer>
-        {reversed.map((postagem) => (
+      <PostContainer>
+        {postagens.map(postagem => (
           <Post
             key={postagem.id}
             titulo={postagem.titulo}
-            descricao={postagem.descricao}
+            endereco={postagem.endereco}
+            descricao={postagem.descricao} 
             imagemUrl={postagem.imagemUrl}
-          />
+          />      
         ))}
-      </FeedContainer>
-    </>
+      </PostContainer>
+    </FeedContainer>
+   
   );
 };
 
