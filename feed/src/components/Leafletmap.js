@@ -31,7 +31,7 @@ const Leafletmap = ({ latitude, longitude }) => {
     return (
      
         <Mapstyle>
-        <MapContainer center={position} zoom={6} style={{ height: '300px', width: '100%', }} scrollWheelZoom={true}>
+        <MapContainer center={position} zoom={9} style={{ height: '300px', width: '100%', }} scrollWheelZoom={true}>
           <TileLayer
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
             attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'

@@ -122,6 +122,15 @@ const FeedDeImoveis = () => {
       lat: -22.907486502574415,
       long: -43.183819643433424
     },
+    {
+      id: 9,
+      titulo: 'Edifício São Miguel',
+      endereco: 'Avenida Beira Mar, 406 - Centro',
+      descricao: 'São 12 andares e mais de cem unidades de uso misto. Possivelmente na época de sua inauguração os apartamentos eram somente residenciais. Construído por Leonídio Gomes & Cia. o São Miguel possui uma entrada em diagonal que leva o visitante para um hall gigantesco decorado com mármores escuros e claros. Na portaria também estão espelhos e luminárias embutidas nas pilastras. Os elevadores antigos ainda possuem portas pantográficas. Ao lado da entrada do edifício foi colocada uma placa indicando que o poeta Manuel Bandeira (1886-1968) viveu nessa construção entre as décadas de 1940 a 1960. Outro famoso que morou no São Miguel foi o pintor Cândido Portinari (1903-1962) entre os anos de 1939 a 1942.',
+      imagemUrl: '../public/images/ediciosaomiguel.jpg',
+      lat: -22.91109321043468, 
+      long: -43.172316603448664
+    }
   ];
 
 
